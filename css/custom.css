@@ -1,4 +1,45 @@
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  }
 
 /*insert custom css below*/
+
+body {
+  background-color:  #e0e0eb;
+  font-family: arial;
+}
+
+a{
+  color: #222;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#FFF;
+  text-decoration: none;
+}
+
+.box {
+  height: 600px;
+  width: 400px;
+  background-color:  #e0e0eb;
+  border: 1px solid  #737385;
+  padding: 25px;
+  margin: 25px;
+}
+
+/**
+ * .box about targeting anchor links with class of read-more inside the box element
+ */
+.box a.read-more {
+  text-decoration: underline;
+}
+
+h1 small{
+  color: #333;
+  font-size:.7em;
+}
+
+small{
+  font-size:50%
+}
